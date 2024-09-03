@@ -1,0 +1,22 @@
+POST http://localhost:3003/posts/
+Content-Type: application/json
+
+
+{
+    "title": "second post",
+    "postType": "post",
+    "slug": "new-with-nestjs" , 
+    "status": "draft" , 
+    "content": "this is the post content" , 
+    // "schema": "{\r\n \"@content\": \"https\/\/schema.org\", \r\n \"@type\": \"Person\"r\n}",
+    "schema": "this is schmea",
+    "featuredImageUrl" : "http://localhost.com/images/image1.jpg" , 
+    // "publishOn": "2023-12-04T16:30:00Z" , 
+    "tags": ["nestjs" , "typescritp"] 
+    // "metaOptions": [
+    //     {
+    //         "key": "testKey" , 
+    //         "value" : 20
+    //     }
+    // ]
+}
